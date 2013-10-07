@@ -1,0 +1,137 @@
+<html>
+<head>
+	<title>Lecture Notes</title>
+	<link rel="stylesheet" href="lecturenotespage.css" type="text/css"/>
+</head>
+<body>
+		 <div class="main-content">
+    		<div class="top-menu">    
+      			<div class="image-sec">
+       				 <a href="index.html">
+					 	<img src="images/studyzone1.png" alt="study zone">
+					</a>
+      			</div>
+				 <div class="course_mycourses" id="a">
+			        <a Class="course_mycourses_link" href="profile.html" style="text-decoration:none">Home</a>
+				</div>	
+				 <div class="course_mycourses1" id="a">
+			        <a Class="course_mycourses_link" href="courses.html" style="text-decoration:none">My courses</a>
+				</div>
+      			<nav>
+        			<ul class="user-name">
+         				 <li class="user-name">
+           					 <a href="#" class="user-name">Mohsin Vindhani</a>
+           						 <ul>
+              						<li><a href="#">Settings</a></li>
+             						<li><a href="#">Previous Records</a></li>
+             						<li><a href="index.html">Sign out</a></li>
+            					</ul>
+         				 </li>
+       				</ul>
+      			</nav>
+   			 </div>
+		</div>
+		<div class="assignments_content">
+			<div class="course_deadlines">
+				<h2 align="center">Upcoming Deadlines</h2>
+				<hr/>
+				<div>
+					<ul>
+						<li>Assignment 3 submission on 18/09/2013.</li>
+						<li>Quiz 2 on 25/09/2013.</li>
+						<li>Assignment 4 Submission on 27/09/2013.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="course_links_box">
+				<p>
+					<a href="lecturenotespage.html" class="course_links">
+						Lecture Notes
+					</a>
+				</p>
+				<hr/>
+				<p>
+					<a href="assignmentspage.html" class="course_links">
+						Assignments
+					</a>
+				</p>
+				<hr/>
+				<p>
+					<a href="forumspage.html" class="course_links">
+						Forums
+					</a>
+				</p>
+			</div>
+			<div class="assignments_course_name">
+				<a href="coursepage.html" style="text-decoration:none;color:rgb(46,142,214);font-size:20">
+					<h1>Human Factors in Design</h1>
+				</a>
+			</div>
+			<div class="lecturenotes_list">
+				<div class="lecturenotes1">
+					<div>
+						<h3>Lecture Notes 1</h3>
+					</div>
+					<div>
+						<a class="lecturenotes_links" href="#">Click here for lecture notes1</a>
+					</div>
+					<div>
+						<p><b>Topics: </b> Cognitive factors in design</p>
+					</div>
+					<div>
+						<p><b>Note:</b> Assignment will be uploaded soon on this topic. Read this and be ready to solve problems on 
+						this topic in class</p>
+					</div>
+				</div>
+				<hr class="lecturenotes_hr"/>
+				<div class="lecturenotes2">
+					<div>
+						<h3>Lecture Notes 2</h3>
+					</div>
+					<div>
+						<a class="lecturenotes_links" href="#">Click here for lecture notes2</a>
+					</div>
+					<div>
+						<p><b>Topics: </b> Physical factors in design</p>
+					</div>
+					<div>
+						<p><b>Note:</b> Assignment will be uploaded soon on this topic. Read this and be ready to solve problems on 
+						this topic in class</p>
+					</div>
+				</div>
+				<hr class="lecturenotes_hr"/>
+				<div class="lecturenotes3">
+					<div>
+						<h3>Lecture Notes 3</h3>
+					</div>
+					<div>
+						<a class="lecturenotes_links" href="#">Click here for lecture notes3</a>
+					</div>
+					<div>
+						<p><b>Topics: </b> Cognitive factors in design</p>
+					</div>
+					<div>
+						<p><b>Note:</b> Assignment will be uploaded soon on this topic. Read this and be ready to solve problems on 
+						this topic in class</p>
+					</div>
+				</div>
+				<hr class="lecturenotes_hr"/>
+				<div class="lecturenotes4">
+					<div>
+						<h3>Lecture Notes 4</h3>
+					</div>
+					<div>
+						<a class="lecturenotes_links" href="#">Click here for lecture notes4</a>
+					</div>
+					<div>
+						<p><b>Topics: </b> Physical factors in design</p>
+					</div>
+					<div>
+						<p><b>Note:</b> Assignment will be uploaded soon on this topic. Read this and be ready to solve problems on 
+						this topic in class</p>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

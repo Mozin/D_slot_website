@@ -1,0 +1,185 @@
+<html>
+<head>
+ <link href='http://fonts.googleapis.com/css?family=Donegal+One' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+  
+  </script>
+ 
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+
+<title>
+    Askquestion
+  </title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+
+	
+ <link rel="stylesheet" type="text/css" href="askquestion1.css"/>
+       <%= stylesheet_link_tag "styles.css" %>
+       <%= stylesheet_link_tag "menuinprofile.css" %>
+ <style type="text/css">
+.add {
+    box-shadow:inset 0px 1px 0px 0px #88b3e8;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5499e3), color-stop(1, #295db0) );
+	background:-moz-linear-gradient( center top, #5499e3 5%, #295db0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5499e3', endColorstr='#295db0');
+	background-color:#5499e3;
+	border-radius:0 px;
+	text-indent:0;
+	border:1px solid #374457;
+ 
+	margin-left:585px;
+	margin-top:20px;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:normal;
+	font-style:italic;
+	height:36px;
+	line-height:36px;
+	width:90px;
+	text-decoration:none;
+     text-align:center;
+	text-shadow:1px 1px 0px #667482;
+}
+.add:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #295db0), color-stop(1, #5499e3) );
+	background:-moz-linear-gradient( center top, #295db0 5%, #5499e3 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#295db0', endColorstr='#5499e3');
+	background-color:#295db0;
+}.add:active {
+	position:relative;
+	top:1px;
+}</style>
+</head>
+<body>
+  <div class="main-content">
+    <div class="top-menu">    
+      <div class="image-sec">
+        <%= image_tag("studyzone1.png") %>
+      </div>
+	   <div class="course_mycourses" id="a">
+			        <a Class="course_mycourses_link" href="courses.html" style="text-decoration:none">My Courses</a>
+	   	       </div>
+      <nav>
+        <ul class="user-name">
+          <li class="user-name">
+            <a href="#" class="user-name">Mohsin Vindhani</a>
+            <ul>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Previous Records</a></li>
+              <li><a href="index.html">Sign out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="courses">
+    
+	  <!--courses dropdown-->
+	  <!--deadline-box-->
+      <div class="deadline">
+        <div class="deadline-box">
+          <div class="title">
+            Deadlines
+          </div>
+          <div class="deadlines" >
+            <ul>
+            <li><a href="#">ED3120 Assignment 2</a></li>
+            Friday,20 September,2013
+            <li><a href="#">ED3160 Assignment 3</a></li>
+            Wednesday,25 September,2013
+            <li><a href="#">ED3130 Assignment 1</a></li>
+            Monday,29 September,2013
+            </ul>
+          </div>
+        </div>
+      </div>
+	  
+	 <!--This is the form-->
+	 <div class="forum">
+	       <div style="height:60px;margin:8px 2% 0 2%;padding-top:2%">
+	  <div id='cssmenu'>
+<ul>
+   <li class='has-sub'><a href='#'><span>by courses</span></a>
+      <ul>
+         <li><a href='#'><span>course1</span></a></li>
+         <li><a href='#'><span>course2</span></a></li>
+         <li class='last'><a href='#'><span>course3</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href='#'><span>by tag</span></a>
+      <ul>
+         <li><a href='#'><span>Lectures</span></a></li>
+		  <li><a href='#'><span>Quizes</span></a></li>
+		   <li><a href='#'><span>Class notes</span></a></li>
+		    <li><a href='#'><span>Inclass assignments</span></a></li>
+         <li class='last'><a href='#'><span>Assignments</span></a></li>
+      </ul>
+   </li>
+   <li class='last'><a href='profile.html'><span>Home</span></a></li>
+</ul>
+</div>
+	  </div>
+			<div style="width:700px; height:400px; background-color:#ffffff; margin:auto;margin-top:50px; border-radius:5px;border:3px solid #ededed; box-shadow:inset 0px 0px 2px #ededed;">
+			<textarea class="wm side" rows="5" cols="50" id="data"style="margin-top:0px;margin-left:0px;height:30px;width:700px;border:0px" >
+			Start a discussion here......</textarea>
+            <div style="margin-top:10px;margin-left:20px;"></div>
+			
+			<div style="margin-top:330px;width:100px; height:25px; font-family: 'Open Sans', sans-serif;font-size:14px;color:#405296; display:inline-block;background-color:#f2f2f2; border-right:1px solid #e5e5e5; text-align:center;border-radius:5px">
+			upload
+			<a href=><%=image_tag ("upload.png"), :class=>'upload_image'%></a>
+			</div>
+			<div id="cssmenu1" style=" display:inline-block;">
+			<ul>
+   <li class='has-sub last'><a href='#'><span>Courses</span></a>
+      <ul>
+         <li><a href='#'><span>Course1</span></a></li>
+         <li><a href='#'><span>Course2</span></a></li>
+		 <li><a href='#'><span>Course3</span></a></li>
+         <li class='last'><a href='#'><span>Course4</span></a></li>
+      </ul>
+   </li>
+</ul>
+			</div>
+			<div id="cssmenu1" style=" display:inline-block;">
+			<ul>
+   <li class='has-sub last'><a href='#'><span>Tag</span></a>
+      <ul>
+         <li><a href='#'><span>Assignments</span></a></li>
+         <li><a href='#'><span>Quizes</span></a></li>
+		 <li><a href='#'><span>Lectures</span></a></li>
+		 <li><a href='#'><span>Classnotes</span></a></li>
+         <li class='last'><a href='#'><span>Inclass tutorials</span></a></li>
+      </ul>
+   </li>
+</ul>
+			</div>
+			
+			</div>
+			<div class="add">
+		     post
+			</div>
+			
+			<div style="height:40px;display;block; border-bottom:1px solid black; margin-top:40px; margin-left:5%;margin-right:5%;">
+			<strong>Latest discussions</strong>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			<a href="answerpage.html" style="text-decoration:none;">Question1</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest Answer(time)
+			<p style="font-size:17px;"><span style="background-color:#29a4d5;padding-left:.5%;color:#ffffff;padding-right:.5%;">tag1</span>&nbsp;&nbsp;<span style="background-color:#29a4d5;padding-left:.5%;color:#ffffff;padding-right:.5%;">tag2</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Started last post by</p>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			<a href="" style="text-decoration:none;">Question2</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest Answer(time)
+			<p style="font-size:17px;"><span style="background-color:#29a4d5;padding-left:.5%;color:#ffffff;padding-right:.5%;">tag1</span>&nbsp;&nbsp;<span style="background-color:#29a4d5;padding-left:.5%;color:#ffffff;padding-right:.5%;">tag2</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Started last post by</p>
+			</div>
+			
+			</div>
+    </div>
+  </div>  
+</body>
+<footer>
+
+</footer>
+</html>

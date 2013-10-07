@@ -1,0 +1,122 @@
+<html>
+<head>
+  <title>
+    Courses
+  </title>
+  <link rel="stylesheet" type="text/css" href="courses.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Donegal+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <section class="main-content">
+    <section class="top-menu">    
+      <section class="image-sec">
+        <img src="resources/images/studyzone1.png">
+      </section>
+	  <div class="course_mycourses" id="a">
+			        <a Class="course_mycourses_link" href="profile.html" style="text-decoration:none">Home</a>
+	   	       </div>
+      <nav>
+        <ul class="user-name">
+          <li class="user-name">
+            <a href="#" class="user-name">Mohsin Vindhani</a>
+            <ul>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Previous Records</a></li>
+              <li><a href="index.html">Sign out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section class="courses">
+      <section class="courses-heading">
+      COURSES
+      </section>
+      <section class="content-left">    
+        <section class="course-left">  
+          <section class="course-name">
+            ED3160: Industrial Automation and Robotics
+          </section>
+          <section class="prof-name">
+            Dr Asokan T
+          </section>
+          <section class="prof-name">
+            Dr N J Vasa
+          </section>
+          <section class="class-button">
+            <a href="coursepage.html" >View Course</a>
+          </section>
+        </section>
+        <section class="course-left">  
+          <section class="course-name">
+            ED3150: Human Factors in Design
+          </section>
+          <section class="prof-name">
+            Dr Venkatesh BalaSubramaniam
+          </section>
+          <section class="class-button">
+            <a href="coursepage.html" >View Course</a>
+          </section>     
+        </section>
+        <section class="course-left">  
+          <section class="course-name">
+            ED3120:Detail Design
+          </section>
+          <section class="prof-name">
+            Dr Srikanth Vedantham
+          </section>
+          <section class="class-button">
+            <a href="coursepage.html" >View Course</a>
+          </section>     
+        </section>
+        <section class="course-left">  
+          <section class="course-name">
+            ED3130: Kinetics and Dynamics of machinery
+          </section>
+          <section class="prof-name">
+            Dr Sandipan Bandopadhyay
+          </section>
+          <section class="class-button">
+            <a href="coursepage.html" >View Course</a>
+          </section>     
+        </section>
+        <section class="course-left">  
+          <section class="course-name">
+            ED5120: Automotive Systems
+          </section>
+          <section class="prof-name">
+            Dr Shankar Ram C S
+          </section>
+          <section class="class-button">
+            <a href="coursepage.html" >View Course</a>
+          </section>     
+        </section>
+      </section>
+      <section class="deadline">
+        <section class="deadline-box">
+          <section class="title">
+            Deadlines
+          </section>
+          <section class="deadlines">
+            <ul>
+            <li><a href="#">ED3120 Assignment 2</a></li>
+            Friday,20 September,2013
+            <li><a href="#">ED3160 Assignment 3</a></li>
+            Wednesday,25 September,2013
+            <li><a href="#">ED3130 Assignment 1</a></li>
+            Monday,29 September,2013
+            </ul>
+          </section>
+        </section>
+      </section>
+    </section>
+  </section>  
+</body>
+<footer>
+
+</footer>
+</html>
+
+
+
+

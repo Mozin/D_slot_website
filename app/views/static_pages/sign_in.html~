@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Sign In</title>
+	<link rel="stylesheet" type="text/css" href="signin_style.css"/>
+</head>
+<body>
+		<div class="signin_home">
+			<a href="index.html">
+				<img src="images/studyzone.png" alt="studyzone"/>
+			</a>
+		</div>
+		<div class="signin_content">
+			<div class="signin_content_signin"><h2>SignIn</h2></div>
+			<hr/>
+			<div class="signin_content_form">
+						<form name="input" action="profile.html" method="get">
+						<p>Username</p>
+						<p><input class="signin_input" type="text" name="username"/></p>
+						<p>Password</p>
+						<p><input class="signin_input" type="password" name="password"/></p>
+						<p><input class="signin_form_submit" type="submit" value="sign in"/></p>
+						<div><a href="underconstructionpage.html">forgot password?</a></div>
+						</form>
+			</div>
+			<div class="signin_redirect_signup">
+						<p>Not registered yet?</p>
+						<p><a href="signuppage.html">Register here.</a></p>
+			</div>
+		</div>
+		<div class="signin_bottom">
+			<a href="terms.html" style="text-decoration:none; margin-right:5px">Team</a>
+			<a href="terms.html" style="text-decoration:none;margin-right:5px">Contact</a>
+			<a href="terms.html" style="text-decoration:none;margin-right:5px">Terms</a>
+			<a href="terms.html" style="text-decoration:none;margin-right:5px">Help</a>
+		</div>
+		<div class="signin_div_table">
+			<table class="signin_table">
+				<tr>
+					<td style="border-right:1px solid black"></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+</body>
+</html>

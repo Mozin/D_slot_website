@@ -1,0 +1,99 @@
+body{
+  height:700px;
+  background-color:rgb(240,240,240);  
+  max-height:700px;
+}
+
+section.main-content{
+  margin-left:7%;
+  margin-right:7%;
+}
+
+section.upper-space{
+  height:1%;
+}
+
+section.options-top{
+  background-color:rgb(46,142,214);
+  height:40px;
+  margin-bottom:10px;
+}
+
+section.options-top ul{
+  list-style:none;
+  margin-left:72%;
+}
+
+section.options-top ul li{
+  float:left;
+  font-size:20px;
+  font-family: 'Donegal One', serif;
+  margin-right:5%;
+}
+
+section.options-top ul li a{
+  display:block;
+  text-decoration:none;
+  color:#fff;
+  text-align:center;
+  padding:10px 0 20px 0;
+}
+
+section.data-block{
+  height:470px;
+  margin-bottom:2%;
+}
+
+section.data-img{
+  height:100%;
+  width:50%;
+  float:left;
+  height:100%;
+  background-image:url(lt_ed-1099_powerpoint_templates_title_slide.jpg);
+  background-size:100% 100%;
+}
+
+section.data-right{
+  height:100%;
+  float:left;
+  width:50%;
+  font-family: 'Donegal One', serif;
+  background-color:white;
+}
+
+img{
+  margin-top:5%;
+  height:25%;
+}
+
+footer{
+  background-color:rgb(60,160,220);
+  height:70px;
+  font-family: 'Donegal One', serif;
+  margin-left:7%;
+  margin-right:7%;
+}
+
+section.login{
+	position:relative;
+	top:-275px;
+	left:100px;
+}
+
+section.login_submit{
+	position:absolute;
+	left:70px;
+	
+}
+
+input.login_submit{
+	background-color:rgb(60,160,220);
+	padding:5px;
+	border-radius:7px;
+	color:#ffffff;
+}
+
+input.login{
+	border-radius:3px;
+	margin-left:10px;
+}

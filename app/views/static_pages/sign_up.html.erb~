@@ -1,0 +1,72 @@
+	<div>
+		<div class="signup_home">
+			<a href="index.html">
+				<%=image_tag("studyzone.png") %>
+			</a>
+		</div>
+		<div class="signup_content_box">
+			<div class="signup_content_signup_title">
+				<h2>SignUp</h2>
+			</div>
+			<hr/>
+			<div class="signup_content_main">
+				<form name="input" action="index.html" method="get">
+					<p>
+						Full name
+						<input class="signup_input" type="text" name="Full name" size="28px"/>
+					</p
+					<p>
+						Gender
+						<input class="signup_input" type="text" name="gender" size="28px"/>
+					</p>
+					<p>
+						Email
+						<input class="signup_input" type="text" name="email" size="28px"/>
+					</p>
+					<p>
+						password
+						<input class="signup_input" type="password" name="password" size="28px"/>
+					</p>
+					<p>
+						Confirm Password
+						<input class="signup_input" type="password" name="confirm_password" size="28px"/>
+					</p>
+					<p>
+						<input type="checkbox" name="terms_accept" value = "terms_accept"/>
+						I agree to <a href="index.html">terms</a> of service
+					</p>
+					<p>
+						<div class="signup_content_signup_pos">
+							<input type="submit" value="sign up" class="signup_content_signup_submit" />
+						</div>
+					</p>
+				</form>
+			</div>
+			<div class="signup_redirect_signin">
+				<h3>Have an account?</h3>
+				<p>
+					If you already have a account please 
+						<a href="signinpage.html">
+							Sign In
+						</a>
+				</p>
+			</div>
+		</div>
+		<div class="signup_div_table">
+			<table class="signup_table">
+				<tr>
+					<td style="border-right:1px solid black"></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		<div class="signup_bottom">
+			<a href="index.html" class="links_at_bottom" >Team</a>
+			<a href="Terms.html" class="links_at_bottom" >Contact</a>
+			<a href="Terms.html" class="links_at_bottom" >Terms</a>
+			<a href="index.html" class="links_at_bottom" >Help</a>
+		</div>
+	</div>
+
+
+

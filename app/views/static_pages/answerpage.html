@@ -1,0 +1,184 @@
+<html>
+<head>
+ <link href='http://fonts.googleapis.com/css?family=Donegal+One' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+  </script>
+<title>
+    Answer
+  </title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+		<% content_for :javascript_includes do %>
+		  <%= javascript_include_tag "rangy-core.js" %>
+		  <%= javascript_include_tag "rangy-position.js" %>
+		  <%= javascript_include_tag "textinputs_jquery.js" %>
+		  <%= javascript_include_tag "jquery.caretposition.js" %>
+		  <%= javascript_include_tag "writemaths.js" %>
+		<% end %>
+
+		<!-- MathJax -->
+		<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js">
+		  MathJax.Hub.Config({
+			extensions: ['tex2jax.js',"TeX/AMSmath.js","TeX/AMSsymbols.js"],
+			tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
+			jax: ["input/TeX","output/HTML-CSS"],
+			displayAlign: "center",
+			displayIndent: "0.1em",
+			showProcessingMessages: false
+		  });
+	  	</script>
+
+
+		<script language="javascript">
+            $(document).ready(function() {
+                $('.wm.ontop').writemaths();
+				$('.wm.side').writemaths({position:'center top', previewPosition: 'center bottom'});
+			});
+		</script>
+        <style type="text/css">
+            body {
+                font-family: 'trebuchet ms', Verdana;
+            }
+            textarea {
+                font-size: 1.3em;
+            }
+            input {
+                font-size: 1em;
+            }
+			.wm {
+				border: 1px solid gray;
+                margin: 0 1em;
+            }
+            div.wm {
+                min-height: 5em;
+                padding: 0 1em;
+            }
+            input.wm {
+                height: 1.5em;
+            }
+		</style>
+       <%= stylesheet_link_tag "menuinprofile.css" %>
+       <%= stylesheet_link_tag "discussioninprofile.css" %>
+       <%= stylesheet_link_tag "profile.css" %>       
+       <%= stylesheet_link_tag "secondmenuinprofile.css" %>
+
+</head>
+<body>
+  <div class="main-content">
+    <div class="top-menu">    
+      <div class="image-sec">
+        <%=image_tag ("studyzone1.png") %>
+      </div>
+	  <div class="course_mycourses" id="a">
+			        <a Class="course_mycourses_link" href="courses.html" style="text-decoration:none">My Courses</a>
+	   	       </div>
+      <nav>
+        <ul class="user-name">
+          <li class="user-name">
+            <a href="#" class="user-name">Mohsin Vindhani</a>
+            <ul>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Previous Records</a></li>
+              <li><a href="index.html">Sign out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="courses">
+     
+	  <!--courses dropdown-->
+	  <!--deadline-box-->
+      <div class="deadline">
+        <div class="deadline-box">
+          <div class="title">
+            Deadlines
+          </div>
+          <div class="deadlines" >
+            <ul>
+            <li><a href="#">ED3120 Assignment 2</a></li>
+            Friday,20 September,2013
+            <li><a href="#">ED3160 Assignment 3</a></li>
+            Wednesday,25 September,2013
+            <li><a href="#">ED3130 Assignment 1</a></li>
+            Monday,29 September,2013
+            </ul>
+          </div>
+        </div>
+      </div>
+	  
+	 <!--This is the form-->
+	 <div style="height:1000px;width:700px; margin-left:2%; float:left;">
+	  <div style="height:60px;margin:2% 2% 0 2%;padding-top:2%">
+	  <div id='cssmenu'>
+<ul>
+   <li class='has-sub'><a href='#'><span>by courses</span></a>
+      <ul>
+         <li><a href='#'><span>course1</span></a></li>
+         <li><a href='#'><span>course2</span></a></li>
+         <li class='last'><a href='#'><span>course3</span></a></li>
+      </ul>
+   </li>
+   <li class='has-sub'><a href='#'><span>by tag</span></a>
+      <ul>
+         <li><a href='#'><span>Lectures</span></a></li>
+		  <li><a href='#'><span>Quizes</span></a></li>
+		   <li><a href='#'><span>Class notes</span></a></li>
+		    <li><a href='#'><span>Inclass assignments</span></a></li>
+         <li class='last'><a href='#'><span>Assignments</span></a></li>
+      </ul>
+   </li>
+   <li class='last'><a href='profile.html'><span>Home</span></a></li>
+</ul>
+</div>
+<div id='cssmenu1'>
+<ul>
+   <li class='last'><a href='askquestion1.html'><span>start discussion</span></a></li>
+</ul>
+</div>
+	  </div> 
+	  <div style="position:relative; margin-left:40px; margin-top:60px; font-size:29px;">
+			<strong>Question1</strong>
+			</div>
+			<div style="height:60px;margin:2% 2% 0 2%;padding-top:2%; margin-left:40px;">
+	  <div style="margin-top:20px;width:170px; display:inline-block;border-bottom:2px solid #0d70b9;float:left; font-size:20px;padding-bottom:15px;">All answers</div>
+	  <div id="cssmenu2"style="height:60px;width:418px; display:inline-block;border-bottom:2px solid #0d70b9;float:left;">
+	  <ul>
+   <li class='active'><a href='index.html'><span>Active</span></a></li>
+   <li><a href='#'><span>Newest</span></a></li>
+   <li class='last'><a href='#'><span>All</span></a></li>
+</ul>
+	  </div>
+	  </div>
+			<!--here are replies-->
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			reply1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Post(time)
+			<p style="font-size:17px;">like</p>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			reply2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Post(time)
+			<p style="font-size:17px;">like</p>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			reply3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Post(time)
+			<p style="font-size:17px;">like</p>
+			</div>
+			 <div style="height:100px;width:400px; margin-left:40px;">
+            <br/>
+			<textarea class="wm side" rows="5" cols="50" id="data">
+           </textarea>
+            <br/>
+            <button id="submit_button" style="margin-left:15px;">submit</button>
+             </div>
+	  
+			
+	  </div>
+	 
+    </div>
+  </div>  
+</body>
+<footer>
+
+</footer>
+</html>

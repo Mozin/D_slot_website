@@ -1,0 +1,101 @@
+<html>
+<head>
+	<title>Course page</title>
+	<link rel="stylesheet" type="text/css" href="forumspage.css"/>
+</head>
+<body>
+
+		<div class="main-content">
+			<div class="top-menu">
+				<div class="image-sec" >
+					<a href="index.html">
+						<img src="images/studyzone1.png" alt="home">
+					</a>
+			   </div>
+			    <div class="course_mycourses" id="a">
+			        <a Class="course_mycourses_link" href="profile.html" style="text-decoration:none">Home</a>
+				</div>	
+				 <div class="course_mycourses1" id="a">
+			        <a Class="course_mycourses_link" href="courses.html" style="text-decoration:none">My courses</a>
+				</div>
+				<nav id="a">
+        			<ul class="user-name">
+         				 <li class="user-name">
+           				 	<a href="#" class="user-name">Mohsin Vindhani</a>
+           			 			<ul>
+				              		<li><a href="#">Settings</a></li>
+				              		<li><a href="#">Previous Records</a></li>
+				              		<li><a href="index.html">Sign out</a></li>
+            					</ul>
+          				</li>
+       				 </ul>
+     			 </nav>
+    		</div>
+		</div>
+	
+		<div class="course_content">
+			<div class="course_deadlines">
+				<h2 align="center">Upcoming Deadlines</h2>
+				<hr/>
+				<div>
+					<ul>
+						<li>Assignment 3 submission on 18/09/2013.</li>
+						<li>Quiz 2 on 25/09/2013.</li>
+						<li>Assignment 4 Submission on 27/09/2013.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="course_links_box">
+				<p>
+					<a href="lecturenotespage.html" style="text-decoration:none;" class="course_links">
+						Lecture Notes
+					</a>
+				</p>
+				<hr/>
+				<p>
+					<a href="assignmentspage.html" style="text-decoration:none;"class="course_links">
+						Assignments
+					</a>
+				</p>
+				<hr/>
+				<p>
+					<a href="forumspage.html" style="text-decoration:none;"class="course_links">
+						Forums
+					</a>
+				</p>
+			</div>
+			<div class="a">
+			<div style="position:absolute; margin-left:40px; margin-top:20px; font-size:29px;">
+			<strong>Forums</strong>
+			</div>
+		
+			<div style="display:block height:100px; border-bottom:.5px solid blue; margin-top:100px; margin-left:40px;margin-right:40px;font-size:20px;">
+			<strong>Sub-forums</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Latest discussions</strong>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			<a href="subforumspage.html" style="text-decoration:none;">Lectures</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest discussion Thread(time)
+			<p style="font-size:17px;">Discussins on doubts in class room lectures</p>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			Class notes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest discussion Thread(time)
+			<p style="font-size:17px;">Disscussions on notes uploaded by the professor</p>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			Assignments &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest discussion Thread(time)
+			<p style="font-size:17px;">Disscussions on notes uploaded by the professor</p>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			In Class Tutorials &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest discussion Thread(time)
+			<p style="font-size:17px;">Disscussions on notes uploaded by the professor</p>
+			</div>
+			<div style="display:block height:100px;margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			Quizes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest discussion Thread(time)
+			<p style="font-size:17px;">Disscussions on notes uploaded by the professor</p>
+			</div>
+			</div>
+			
+		</div>
+		
+
+</body>
+</html>

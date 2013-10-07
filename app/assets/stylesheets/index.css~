@@ -1,0 +1,30 @@
+body{
+  height:700px;
+  background-color:rgb(240,240,240);  
+  max-height:700px;
+}
+
+section.main-content{
+  margin-left:7%;
+  margin-right:7%;
+}
+
+section.upper-space{
+  height:1%;
+}
+
+section.options-top{
+  background-color:rgb(46,142,214);
+  height:6%;
+  margin-bottom:2%;
+}
+
+section.options-top ul{
+  list-style:none;
+  margin-left:72%;
+}
+
+section.options-top ul li{
+  float:left;
+}
+
