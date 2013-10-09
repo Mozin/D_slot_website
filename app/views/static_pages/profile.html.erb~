@@ -8,6 +8,7 @@
   </title>
        <%= stylesheet_link_tag "menuinprofile.css" %>
        <%= stylesheet_link_tag "discussioninprofile.css" %>
+       <%= stylesheet_link_tag "profile.css" %>       
        <%= stylesheet_link_tag "secondmenuinprofile.css" %>
 </head>
 <body>

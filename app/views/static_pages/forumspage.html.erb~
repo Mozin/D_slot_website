@@ -8,9 +8,7 @@
 		<div class="main-content">
 			<div class="top-menu">
 				<div class="image-sec" >
-					<a href="index.html">
-						<img src="images/studyzone1.png" alt="home">
-					</a>
+						<%=image_tag ("studyzone1.png")%>
 			   </div>
 			    <div class="course_mycourses" id="a">
 			        <a Class="course_mycourses_link" href="profile.html" style="text-decoration:none">Home</a>

@@ -14,6 +14,7 @@
 		  <%= javascript_include_tag "rangy-position.js" %>
 		  <%= javascript_include_tag "textinputs_jquery.js" %>
 		  <%= javascript_include_tag "jquery.caretposition.js" %>
+		  <%= javascript_include_tag "writemaths.js" %>
 		<% end %>
 
 		<!-- MathJax -->
@@ -28,7 +29,6 @@
 		  });
 	  	</script>
 
-		<script type="text/javascript" src="writemaths.js"></script>
 
 		<script language="javascript">
             $(document).ready(function() {
@@ -80,7 +80,7 @@
             <ul>
               <li><a href="#">Settings</a></li>
               <li><a href="#">Previous Records</a></li>
-              <li><a href="index.html">Sign out</a></li>
+              <li><%= link_to root_path ,"Sign out"%></li>
             </ul>
           </li>
         </ul>

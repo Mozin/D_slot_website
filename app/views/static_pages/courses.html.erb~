@@ -10,7 +10,7 @@
   <section class="main-content">
     <section class="top-menu">    
       <section class="image-sec">
-        <img src="resources/images/studyzone1.png">
+        <%= image_tag("studyzone1.png") %>
       </section>
 	  <div class="course_mycourses" id="a">
 			        <a Class="course_mycourses_link" href="profile.html" style="text-decoration:none">Home</a>

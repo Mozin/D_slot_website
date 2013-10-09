@@ -1,6 +1,6 @@
 class StaticPagesController < ApplicationController
 
-  def home
+  def index
   end
    
   def sign_up
@@ -28,6 +28,9 @@ class StaticPagesController < ApplicationController
   end
   
   def forumspage
+  end
+  
+  def answerpage
   end
   
 end

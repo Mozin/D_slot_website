@@ -1,6 +1,6 @@
 DSlotWebsite::Application.routes.draw do
 
-  root :to =>'static_pages#home'
+  root :to =>'static_pages#index'
   match '/signup' ,:to=> 'static_pages#sign_up'
   match '/profile' ,:to=> 'static_pages#profile'
   match '/courses' ,:to=> 'static_pages#courses'
@@ -9,5 +9,6 @@ DSlotWebsite::Application.routes.draw do
   match '/assignmentspage' ,:to=> 'static_pages#assignmnetspage'
   match '/forumspage' ,:to=> 'static_pages#forumspage'
   match '/askquestion1' ,:to=> 'static_pages#askquestion1'
+  match '/answerpage' ,:to=> 'static_pages#answerpage'
   
 end
