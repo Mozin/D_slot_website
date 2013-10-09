@@ -3,6 +3,7 @@
 <head>
   <title>DSlotWebsite</title>
   <%= javascript_include_tag "application" %>
+  <%= yield :javascript_includes %>
   <%= csrf_meta_tags %>
   <link href='http://fonts.googleapis.com/css?family=Donegal+One' rel='stylesheet' type='text/css'>
 </head>
