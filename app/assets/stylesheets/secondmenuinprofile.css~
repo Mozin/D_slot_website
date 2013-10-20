@@ -52,7 +52,7 @@
 }
 #cssmenu2 ul li a:hover,
 #cssmenu2 ul li.active a {
-  background: url(color.png) center bottom;
+  background: url(images/color.png) center bottom;
   display: block;
   height: 35px;
   margin-top: 0px;
