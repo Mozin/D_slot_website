@@ -10,6 +10,13 @@
 <body>
 
 <%= yield %>
-
+<script type="text/javascript">
+        var _mfq = _mfq || [];
+        (function () {
+        var mf = document.createElement("script"); mf.type = "text/javascript"; mf.async = true;
+        mf.src = "//cdn.mouseflow.com/projects/886a27e7-068f-46c0-80d6-3fdc8e43c2d4.js";
+        document.getElementsByTagName("head")[0].appendChild(mf);
+      })();
+    </script>
 </body>
 </html>
