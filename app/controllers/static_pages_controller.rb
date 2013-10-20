@@ -3,6 +3,15 @@ class StaticPagesController < ApplicationController
   def home
   end
    
+  def terms
+  end
+   
+  def subforumspage
+  end
+  
+  def subforum_thread
+  end 
+  
   def sign_up
   end
   

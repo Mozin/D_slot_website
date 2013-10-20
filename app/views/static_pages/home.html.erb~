@@ -1,3 +1,4 @@
+       <%= stylesheet_link_tag "home.css" %>       
 <section class="main-content">
   <section class="upper-space">
   </section>

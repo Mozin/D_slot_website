@@ -1,0 +1,103 @@
+<html>
+<head>
+	<title>Course Name</title>
+	<link rel="stylesheet" type="text/css" href="forums_style.css"/>
+</head>
+<body>
+
+		<div class="main-content">
+			<div class="top-menu">
+				<div class="image-sec" id="a">
+					<a href="index.html">
+						<img src="images/studyzone1.png" alt="home">
+					</a>
+			   </div>
+			  <div class="course_mycourses" id="a">
+			        <a Class="course_mycourses_link" href="profile.html" style="text-decoration:none">Home</a>
+				</div>	
+				 <div class="course_mycourses1" id="a">
+			        <a Class="course_mycourses_link" href="courses.html" style="text-decoration:none">My courses</a>
+				</div>
+				<nav id="a">
+        			<ul class="user-name">
+         				 <li class="user-name">
+           				 	<a href="#" class="user-name">Mohsin Vindhani</a>
+           			 			<ul>
+				              		<li><a href="#">Settings</a></li>
+				              		<li><a href="#">Previous Records</a></li>
+				              		<li><a href="index.html">Sign out</a></li>
+            					</ul>
+          				</li>
+       				 </ul>
+     			 </nav>
+    		</div>
+		</div>
+	
+		<div class="course_content">
+			<div class="course_deadlines">
+				<h2 align="center">Upcoming Deadlines</h2>
+				<hr/>
+				<div>
+					<ul>
+						<li>Assignment 3 submission on 18/09/2013.</li>
+						<li>Quiz 2 on 25/09/2013.</li>
+						<li>Assignment 4 Submission on 27/09/2013.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="course_links_box">
+				<p>
+					<a href="lecturenotespage.html"style="text-decoration:none;" class="course_links">
+						Lecture Notes
+					</a>
+				</p>
+				<hr/>
+				<p>
+					<a href="assignmentspage.html"style="text-decoration:none;" class="course_links">
+						Assignments
+					</a>
+				</p>
+				<hr/>
+				<p>
+					<a href="forumspage.html"style="text-decoration:none;" class="course_links">
+						Forums
+					</a>
+				</p>
+			</div>
+			<div class="a">
+			<div style="position:absolute; margin-left:40px; margin-top:15px; font-size:20px;">
+			Forums/Lectures
+			</div>
+			<div style="position:absolute; margin-left:40px; margin-top:60px; font-size:29px;">
+			<strong>Week1</strong>
+			</div>
+			<div style="display:block height:100px; border-bottom:.5px solid blue; margin-top:130px; margin-left:40px;margin-right:40px;font-size:20px;">
+			<strong>All threads</strong><a href="askquestion1.html"style="text-decoration:none; color:#ffffff;"><div style="float:right; background-color:#4D90FE; border:1px solid black; height:25px; width:160px; text-align:center; border-radius:4px;color:#ffffff;">start discussion</a></div></a>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			<a href="answerpage.html" style="text-decoration:none;">Question1</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest discussion Thread(time)
+			<p style="font-size:17px;">Started by last post by</p>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			Question2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest discussion Thread(time)
+			<p style="font-size:17px;">Started by last post by</p>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			Question3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest discussion Thread(time)
+			<p style="font-size:17px;">Started by last post by</p>
+			</div>
+			<div style="display:block height:100px; border-bottom:1px solid black; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			Question4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest discussion Thread(time)
+			<p style="font-size:17px;">Started by last post by</p>
+			</div>
+			<div style="display:block height:100px; margin-top:50px; margin-left:40px;margin-right:40px;font-size:20px;">
+			Question5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Latest discussion Thread(time)
+			<p style="font-size:17px;">Started by last post by</p>
+			</div>
+			</div>
+			
+		</div>
+		
+
+</body>
+</html>

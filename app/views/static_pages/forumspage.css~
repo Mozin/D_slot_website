@@ -135,7 +135,7 @@ nav ul li.user-name a.user-name{
 }
 .a{
 position:absolute;
-height:900px;
+height:800px;
 width:900px;
 margin-top:50px;
 margin-left:360px;
